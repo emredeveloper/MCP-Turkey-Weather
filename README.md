@@ -1,6 +1,6 @@
 # Turkish Weather Application
 
-Bu uygulama, Türkiye'deki şehirler için hava durumu bilgilerini sağlayan bir MCP (Modular Command Protocol) aracıdır.
+Bu uygulama, Türkiye'deki şehirler için hava durumu bilgilerini sağlayan bir MCP (Model Context Protocol) aracıdır.
 
 ## Özellikler
 
@@ -15,7 +15,7 @@ Bu uygulama, Türkiye'deki şehirler için hava durumu bilgilerini sağlayan bir
 
 1. Python 3.11 veya üstünü yükleyin
 2. Gerekli paketleri yükleyin: `pip install httpx mcp`
-3. OpenWeatherMap API anahtarı alın ve `config.py` dosyasında ayarlayın
+3. OpenWeatherMap API anahtarı alın (https://openweathermap.org/api) ve `config.py` dosyasında ayarlayın
 
 ## Kullanım
 
@@ -24,6 +24,14 @@ Uygulamayı başlatmak için:
 ```bash
 python weather.py
 ```
+
+### MCP İstemcisi ile Kullanım
+
+Bu uygulama bir MCP (Model Context Protocol) sunucusu olarak çalışır. MCP, dil modelleri ile araçlar arasında iletişim sağlayan açık bir protokoldür.
+
+1. Uygulamayı başlattıktan sonra, bir MCP istemcisi (örneğin Copilot, ChatGPT veya başka bir MCP destekli dil modeli) kullanarak komutlar gönderebilirsiniz.
+
+2. İstemci üzerinden şu formatta araçları çağırabilirsiniz:
 
 ## Araçlar
 
