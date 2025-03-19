@@ -2,7 +2,11 @@
 
 # API Configuration
 OPENWEATHER_API_BASE = "https://api.openweathermap.org/data/2.5"
+<<<<<<< HEAD
 OPENWEATHER_API_KEY = "YOUR_API_KEY_HERE"
+=======
+OPENWEATHER_API_KEY = "your_key"
+>>>>>>> be9c914f6bb6c11bfa0bfed8f02ae564922c18a5
 USER_AGENT = "weather-turkey-app/1.0"
 
 # Dictionary of major Turkish cities with their coordinates
